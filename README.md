@@ -34,8 +34,8 @@ Interface web completa com tela de login, cadastro de usuário e página de blog
 
 ## 🌐 Acesse o projeto
 
-[🔗 Ver online](#) <!-- substitua pelo link do GitHub Pages -->
+[🔗 Ver online](https://proendriulike.github.io/sistema-login-blog/login.html)
 
 ---
 
-Desenvolvido por [ProEndriuLike](https://github.com/ProEndriuLike)
+Desenvolvido por [Endriu Luiz Presmini](https://github.com/ProEndriuLike)
