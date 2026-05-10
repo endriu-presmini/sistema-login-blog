@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login — Projeto Web</title>
+  <link rel="stylesheet" href="stylelogin.css" />
+</head>
+<body>
+ 
+  <nav>
+    <span class="nav-logo">Projeto Web</span>
+    <div class="nav-links">
+      <a href="login.html" class="active">Login</a>
+      <a href="tela1.html">Blog</a>
+    </div>
+  </nav>
+ 
+  <main class="login-wrapper">
+    <div class="login-card">
+ 
+      <div class="login-header">
+        <h1>Bem-vindo</h1>
+        <p>Acesse sua conta para continuar</p>
+      </div>
+ 
+      <form action="#" method="post">
+ 
+        <div class="field">
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="seu@email.com"
+            autocomplete="email"
+            required
+          />
+        </div>
+ 
+        <div class="field">
+          <label for="senha">Senha</label>
+          <input
+            type="password"
+            id="senha"
+            name="senha"
+            placeholder="••••••••"
+            autocomplete="current-password"
+            required
+          />
+        </div>
+ 
+        <a href="tela1.html" class="btn-primary">Entrar</a>
+ 
+        <p class="login-footer">
+          Não tem uma conta? <a href="cadastro.html">Cadastre-se</a>
+        </p>
+ 
+      </form>
+    </div>
+  </main>
+ 
+  <footer>
+    <p>&copy; 2025 Projeto Web — Trabalho de Desenvolvimento Web</p>
+  </footer>
+ 
+</body>
+</html>
